@@ -1,715 +1,200 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Saurabh Dhakne</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
 
- <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style2.css">
+    <style>
+        body{  
+        background: #1A1A1A; 
+        font-family: 'play'; 
+        height: 100vh;
+    }
+    h1{
+        font-size: 5.5em;
+        transition: .5s color ease-out;
 
-
-<style media="screen">
-</style>
-  </head>
-  <body>
-<div class="parallax" id="div1">
-
-  <a href="#div1"> <input type="button" class="btn btn-default btn-home" name="" value="HOME"></a>
-  <a href="images/saurabh-dhakne-resume.pdf" target="_blank"><input type="button" class="btn btn-default btn-resume" name="" value="My Resume"></a>
-
-</div>
-
-<div class="div2" >
-
-  <div class="swiper-container">
-  <div class="swiper-wrapper">
-  <div class="swiper-slide">
-    <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 ">
-        <h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12">About Me</h1>
-        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-            <p>Student at MGM's JNEC Aurangabad.
-              I am Passionate about Web development,Web Designing and Learning new Technologies.
-              I believe in learning and implementing what I learnt in a way that can make life of people easier.
-              I would be happy  if my innovation and solutions will be useful to the world and
-              I will feel grateful if I would help o make this world a better place.
-
-            </p>
-        </div>
-        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-            <p>My core competencies are
-              <ul>
-                    <li>Web Designing</li>
-                    <li>Web Development</li>
-                    <li>Competitive Programming</li>
-                    <li>Algorithms and data structures</li>
-              </ul>
-              I am Also excited about
-              <ul>
-                <li>Quantum Computing</li>
-                <li>Artificial Intelligence</li>
-                <li>Block Chain</li>
-              </ul>
-            </p>
-        </div>
-        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-            <p>Interested in doing a project together? Great!!   Contact me
-              <br>  These are some of my profiles <br><br>
-              <a href="https://www.hackerrank.com/sbdhakne309?hr_r=1" target="_blank" >
-                <img src="images/hackerrank.svg" width="40px" height="40px"/> Hackerrank</a>
-                  <br><br>
-                <a href="https://github.com/saurabhdhakne" target="_blank" >
-                  <img src="images/github.svg" width="40px" height="40px"/> Github</a>
-                  <br><br>
-                  <a href="https://in.linkedin.com/in/saurabh-dhakne-600040181" target="_blank" >
-                    <img src="images/linkedin.svg" width="40px" height="40px"/> Linkedin</a>
+    }
+    h1:hover{
+        color: snow;
+        text-shadow: 5px 5px 5px black;
+        transition: .5s color ease-in;
+        cursor: pointer;
+    }
 
 
-            </p>
-        </div>
+.card{
+  margin-top: 20px;
+  background: #2E2E2E;
+  color: #0F77FF;
+  padding: 10px;
+  cursor: pointer;
+  min-height: 165px;
+  box-shadow: 5px 5px 5px black;
+  font-family: 'Play', sans-serif;
+}
 
-    </div>
-  </div>
-  <div class="swiper-slide">
-    <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 ">
-        <h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12">Education</h1>
-        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-            B.E. (Computer Science Engineering)<br>
-            2016-2020<br>
-            MGM's JNEC Aurangabad<hr>
-            Pursuing Engineering degree from MGM's JNEC Aurangabad.
-        </div>
-        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-            HSC (Applied Science)<br>
-            2014-2016<br>
-            Vivekanand Collage Aurangabad
-            <hr>
-            Passing Percentage 65.08%.
-        </div>
-    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-        SSC <br>
-        2013-2014<br>
-        Sonamat Vidhyalay
-        <hr>
-        Passing Percentage 78.60%.
-      </div>
-  </div>
-</div>
+.card i{
+ font-size: 5em;
+ color: #0F77FF;
+ transition: .4s font-size ease-out; 
+}
 
-  <div class="swiper-slide">
-    <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 ">
-        <h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12">Skills</h1>
+.card:hover  i{
+ font-size: 6em;
+ transition: .4s font-size ease-in; 
+}
 
-        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-          <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-              Programming Languages:
-              <ul>
-                  <li>C</li>
-                  <li>C++</li>
-                  <li>Core Java</li>
-                  <li>Advance Java</li>
-                  <li>Python</li>
-              </ul>
-          </div>
-          <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-            Web Technologies & Languages:
-              <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JS</li>
-                  <li>BOOTSTRAP</li>
-                  <li>PHP</li>
-                  <li>MySQL</li>
-                  <li>ASP.net</li>
-                  <li>VB.net</li>
-              </ul>
-          </div>
-          <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-            Tools and IDEs:
-              <ul>
-                <li>Android Studio</li>
-                <li>Photoshop CS6</li>
-                <li>Unity</li>
-                <li>NETBEANS</li>
-                <li>PYCHARM</li>
-                <li>ATOM</li>
-                <li>VS Code</li>
-              </ul>
-          </div>
-          <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-            Operating System:
-              <ul>
-                <li>Ubuntu</li>
-                <li>Linux Mint</li>
-                <li>Cent OS</li>
-                <li>Kali Linux</li>
-              </ul>
-          </div>
+.card:hover{
+  background: #404040;
+  box-shadow: 5px 7px 15px black;
+}
 
+
+.card:hover h5{
+  color: snow;
+  transition: .5s color ease-in;
+
+}
+
+footer a:hover{
+  color: snow;
+  transition: .3s color ease-in;
+}
+
+p{
+    text-indent: 5vh;
+    text-align: justify;
+}
+
+.links span{
+    font-size: 2em;
+  transition: .3s color ease-out;
+}
+
+.links span:hover{
+    color: snow;
+  transition: .3s color ease-in;
+
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h1 class="col-md-6 text-right">Saurabh</h1>
+            <h1 class="col-md-6 ">Dhakne</h1>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row pl-3 pt-2">
+            <div class="col-md-3">
+                <div class="col-md-12 card p-3  cb">
+                    <h5 class="text-center h2">About Me</h5> <hr>
 
-  </div>
+                        <h5> <p> Student at MGM's JNEC Aurangabad. I am Passionate about learning new Technologies. 
+                            I believe in learning and Implementing what I learnt in a way that to innovate something new. 
+                            I would be happy  if my innovation and solutions will be useful to the world.</p></h5>
 
-  <div class="swiper-slide">
-    <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 hobbies">
-        <h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12">HOBBIES & INTERESTS</h1>
-
-        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-          <div class="row">
-            <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6 text-center">
-                <img src="images/football.jpg" alt=""><br>
-                Football
-            </div>
-            <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6 text-center">
-                <img src="images/trekking.png" height="100px" alt=""><br>
-                Trekking
-            </div>
-            <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6 text-center">
-                <img src="images/mobile.png" height="100px" alt=""><br>
-                Mobile Technician
-            </div>
-            <div class="row">
-
-            <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6 text-center">
-                <img src="images/foodi.png" height="100px" alt=""><br>
-                Local Food<br>Explorar
-            </div>
-            <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6 text-center">
-                <img src="images/chess.png" height="100px" alt=""><br>
-                Chess
-            </div>
-            <div class="col-md-2 col-lg-2 col-sm-6 col-xs-6 text-center">
-                <img src="images/web.png" height="100px" alt=""><br>
-                Web-designing & web-Development
+                            
+                </div>
             </div>
 
-          </div>
-          </div>
-
-
+            <div class="col-md-5">
+                <div class="col-md-12 card p-3 cb row" style="text-align: justify;">
+                    <h5 class="text-center h2">Education</h5> <hr>
+                    <div class="row pl-3">
+                        <h5 class="col-md-12 pl-1 pl-1"> B.E. (CSE) &nbsp; : &nbsp; 2016-2020</h5>
+                        <h5 class="col-md-12 pl-1 pr-1" >Pursuing Engineering degree from  MGM's JNEC Aurangabad. <hr></h5>
+                        <h5 class="col-md-12 pl-2 pl-1"> 
+                            HSC (Applied Science) &nbsp; : &nbsp; 2014-2016 <br>
+                            Percentage 65.08 %. &nbsp;&nbsp;
+                            Vivekanand Collage Aurangabad. <hr></h5>
+                            <h5 class="col-md-12 pl-2 pl-1"> 
+                                SSC  &nbsp; : &nbsp; 2013-2014 <br>
+                                Percentage 78.60 %. &nbsp;&nbsp;
+                                Sonamat Vidhyalay Aurangabad. </h5>
+                        
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-12 card p-3 cb row">
+                    <h5 class="text-center h2">CONTACT</h5> <hr>
+                    <div class="row">
+                   <h5 class="col-md-3 p-1 pl-4"> Mobile  </h5><h5 class="col-md-9 "> : +91 7769955625</h5>
+                   <h5 class="col-md-3 p-1 pl-4"> Email   </h5><h5 class="col-md-9 "> : sbdhakne309@gmail.com</h5>
+                   <h5 class="col-md-3 p-1 pl-4"> Website </h5><h5 class="col-md-9 "> : saurabhdhakne.cf</h5>
+                   <h5 class="col-md-3 p-1 pl-4"> Address </h5><h5 class="col-md-9 "> : Aurangabad, Maharashtra.</h5>
+                    <div class="pl-4 pt-2 links mt-2 text-center">
+                  <a href="https://github.com/saurabhdhakne" target="__blank"><span class="fab fa-github ml-3">  <br> Github</span> </a>
+                  <a href="https://www.hackerrank.com/sbdhakne309?hr_r=1" target="__blank"><span class="fab fa-hackerrank ml-3"> <br> Hackerrank</span></a>
+                  <a href="https://in.linkedin.com/in/saurabh-dhakne-600040181" target="__blank"><span class="fab fa-linkedin ml-3"> <br> Linkedin</span></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
         </div>
     </div>
-
-  </div>
-  </div>
-
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  </div>
-
-</div>
-
-
-<div class="div3 container-fluid">
-
-<div class="container">
-
-  <h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">Projects</h1>
-
-
-      <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 project-list">
-          <h2>Projects List</h2><br>
-          <h3>Python</h3>
-          <ul>
-            <a href="#"><li>Personal Assistant in Python(AI)</li></a>
-          </ul>
-
-          <h3>PHP</h3>
-          <ol>
-            <a href="#"><li>Ecommerce Website (Grabox)</li></a>
-            <a href="#"><li>Research & Development Department's Website</li></a>
-            <a href="#"><li>Cloud Gaming's Website</li></a>
-            <a href="#"><li>Career Guidance Website (Raaha)</li></a>
-            <a href="#"><li>Live and Complted Project Showcase Website</li></a>
-            <a href="#"><li>Project-srb (Multipurpose Website)</li></a>
-            <a href="#"><li>Website For Police Support</li></a>
-            <a href="#"><li>Cars Showroom Website</li></a>
-            <a href="#"><li>Mobile Shop's Website</li></a>
-
-          </ol>
-
-          <h3>Java</h3>
-          <ol>
-            <a href="#"><li>Resume Creator Website</li></a>
-            <a href="#"><li>Hospital Management Website</li></a>
-          </ol>
-
-          <h3>ASP.net</h3>
-          <ol>
-            <a href="#"><li>Arya Chanakya School's Website</li></a>
-            <a href="#"><li>Soap Company's Website</li></a>
-            <a href="#"><li>Beauty Parlor's Website</li></a>
-            <a href="#"><li>Food Nation's Website (Hotel)</li></a>
-            <a href="#"><li>Basic Fundamentals of ASP.net</li></a>
-          </ol>
-
-          <h3>VB.net</h3>
-          <ol>
-            <a href="#"><li>School Management Desktop Software</li></a>
-            <a href="#"><li>Hote Management Desktop Software</li></a>
-          </ol>
-
-          <h3>Android Studio</h3>
-          <ol>
-            <a href="#"><li>Ammonia Detection App</li></a>
-            <a href="#"><li>Database Demonstration App</li></a>
-            <a href="#"><li>Application For Raaha Website</li></a>
-
-          </ol>
-
-          <h3>IOT</h3>
-          <ol>
-            <a href="#"><li>Smat Stick For Blind People</li></a>
-          </ol>
-
-          <h3>Websites (HTML,CSS,JS,BT)</h3>
-          <ol>
-            <a href="#"><li>Wsbsite For 3D Printer and Drone</li></a>
-            <a href="#"><li>Website For Hotel (Vistara)</li></a>
-            <a href="#"><li>Website For Travels</li></a>
-            <a href="#"><li>Website For Mobile Shop</li></a>
-            <a href="#"><li>Website For BAMU Question Papers</li></a>
-
-          </ol>
-
-          <h3>POSTERS For </h3>
-          <ol>
-            <a href="#"><li>CODINGO 2.0</li></a>
-            <a href="#"><li>C OVER SNAKES</li></a>
-            <a href="#"><li>PUBG</li></a>
-            <a href="#"><li>Flash Mob</li></a>
-
-
-          </ol>
-
-          <h3>C Programming</h3>
-          <ol>
-            <a href="#"><li>Multipurpose Software in C</li></a>
-          </ol>
-      </div>
-
-      <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12 myprojects">
-          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 project">
-                <h2>Personal Assistant in Python (AI)  </h2>
-                <p>As we know Python is a suitable language for script writers and developers.
-                I wrote a script for Personal Voice Assistant using Python.
-                The query for the assistant can be manipulated as per the user's need.
-                <br><br>
-                <input type="button" class="btn btn-default" name="" value="Python">
-
-                <br><br>
-
-                <input type="button" class="btn btn-success" name="" value="View Project">
-
-              </p>
-<hr>
-              <h2>ECOMMERCE WEBSITE<br>
-                <a href="grabox.000webhostapp.com">
-                  grabox.000webhostapp.com</a>
-              </h2>
-              <p>
-              	Developed an Ecommerce Website in HTML, CSS, JS, BOOTSTRAP, PHP and MySQL.
-              	The vendor will send the request to the admin by Registration on website, after admin’s approval (By Just clicking on approve button) the vendors new panel and directory will be created automatically.
-              	In This website Vendor is able to send the product and it’s details and then admin will check the product then, admin will decide this product is good enough to sell on website or not, if the product is good enough then admin will set the selling price according to his profit and then by just approving (By clicking on approved button) the product will ready to sell on website.
-              	If Admin thinks to remove some product or vendor then the admin is able to do it immediately by just clicking on Decline button. The result will immediately reflect on the website.
-              <br><br>
-              <input type="button" class="btn btn-default" name="" value="HTML">
-              <input type="button" class="btn btn-default" name="" value="CSS">
-              <input type="button" class="btn btn-default" name="" value="JS">
-              <input type="button" class="btn btn-default" name="" value="BOOTSTRAP">
-              <input type="button" class="btn btn-default" name="" value="PHP">
-              <input type="button" class="btn btn-default" name="" value="MySQL">
-
-
-              <br><br>
-
-                <a href="grabox.000webhostapp.com">
-              <input type="button" class="btn btn-success" name="" value="View Project">
-            </a>
-            </p>
-<hr>
-            <h2>
-              CAREER GUIDANCE WEBSITE<br>
-              <a href="raaha.000webhostapp.com">raaha.000webhostapp.com
-              </a>
-            </h2>
-            <p>
-              Developed a Career Guidance website in HTML, CSS, JS, BOOTSTRAP, PHP, MySQL  which helps people to select Right Career.
-                It helps people to discover the lots of option for their career.
-<br><br>
-            <input type="button" class="btn btn-default" name="" value="HTML">
-            <input type="button" class="btn btn-default" name="" value="CSS">
-            <input type="button" class="btn btn-default" name="" value="JS">
-            <input type="button" class="btn btn-default" name="" value="BOOTSTRAP">
-            <input type="button" class="btn btn-default" name="" value="PHP">
-            <input type="button" class="btn btn-default" name="" value="MySQL">
-
-
-            <br><br>
-
-              <a href="grabox.000webhostapp.com">
-            <input type="button" class="btn btn-success" name="" value="View Project">
-          </a>
-          </p>
-
-          <hr>
-                    <h2>
-                      WEBSITE FOR POLICE SUPPORT<br>
-
-
-                    </h2>
-                    <p>
-                    Developed a website in HTML, CSS, JS, BOOTSTRAP, PHP, MySQL for Police Support.
-                  In this website Victim can ask for the Help.
-                  Police will send their basic information hence people can contact them directly.
-
-                    <br><br>
-                    <input type="button" class="btn btn-default" name="" value="HTML">
-                    <input type="button" class="btn btn-default" name="" value="CSS">
-                    <input type="button" class="btn btn-default" name="" value="JS">
-                    <input type="button" class="btn btn-default" name="" value="BOOTSTRAP">
-                    <input type="button" class="btn btn-default" name="" value="PHP">
-                    <input type="button" class="btn btn-default" name="" value="MySQL">
-
-
-                    <br><br>
-
-                      <a href="grabox.000webhostapp.com">
-                    <input type="button" class="btn btn-success" name="" value="View Project">
-                  </a>
-                  </p>
-<hr>
-            <h2>
-              RESUME CREATOR
-
-            </h2>
-            <p>	Developed Website in Advance JAVA Which Helps to Create a Resume/CV,
-	               Client Have to Create Register and then the Resume/CV Will be Create automatically.
-
-            <br><br>
-            <input type="button" class="btn btn-default" name="" value="HTML">
-            <input type="button" class="btn btn-default" name="" value="CSS">
-            <input type="button" class="btn btn-default" name="" value="BOOTSTRAP">
-            <input type="button" class="btn btn-default" name="" value="JAVA">
-            <input type="button" class="btn btn-default" name="" value="Derby">
-
-
-            <br><br>
-
-              <a href="grabox.000webhostapp.com">
-            <input type="button" class="btn btn-success" name="" value="View Project">
-          </a>
-          </p>
-
-<hr>
-    <h2>
-      HOSPITAL MANAGEMENT WEBSITE
-    </h2>
-    <p>Developed Website in Advance Java.
-      This is simple Hospital management website, In this website Patient have to Register by mentioning their Heath issue and then Doctors can directly see this information by login in their account.
-
-    <br><br>
-    <input type="button" class="btn btn-default" name="" value="HTML">
-    <input type="button" class="btn btn-default" name="" value="CSS">
-    <input type="button" class="btn btn-default" name="" value="BOOTSTRAP">
-    <input type="button" class="btn btn-default" name="" value="JAVA">
-    <input type="button" class="btn btn-default" name="" value="Derby">
-
-
-    <br><br>
-
-      <a href="grabox.000webhostapp.com">
-    <input type="button" class="btn btn-success" name="" value="View Project">
-  </a>
-  </p>
-
-  <hr>
-      <h2>
-        ARYA CHANAKYA SCHOOL
-      </h2>
-      <p>Developed School website in ASP.net
-        	In this website student have a log in portal, after login they can download see their documents like.
-        	This website helps students to access their documents from anywhere in world.
-        	There is one more portal for clerk or admin where they can Insert, Update and Delete the student’s data.
-
-      <br><br>
-      <input type="button" class="btn btn-default" name="" value="ASP.net">
-
-
-      <br><br>
-
-        <a href="grabox.000webhostapp.com">
-      <input type="button" class="btn btn-success" name="" value="View Project">
-    </a>
-    </p>
-
-      <hr>
-          <h2>
-            SOAP COMPANY WEBSITE
-          </h2>
-          <p>Developed Company’s website in ASP.net
-	             In this website Customer has a log in portal and one more login portal is provided for the admin.
-
-
-          <br><br>
-          <input type="button" class="btn btn-default" name="" value="ASP.net">
-
-          <br><br>
-
-            <a href="grabox.000webhostapp.com">
-          <input type="button" class="btn btn-success" name="" value="View Project">
-        </a>
-        </p>
-
-
-              <hr>
-                  <h2>
-                  ANKITA BEAUTY PARLOR
-                  </h2>
-                  <p>Developed Beauty Parlor’s website in ASP.net,
-                      This is website for Ankita Beauty Parlor which is situated in TV Center Aurangabad
-
-                  <br><br>
-                  <input type="button" class="btn btn-default" name="" value="ASP.net">
-
-                  <br><br>
-
-                    <a href="grabox.000webhostapp.com">
-                  <input type="button" class="btn btn-success" name="" value="View Project">
+    
+    <div class="container-fluid">
+        <div class="row pl-3 pr-4">
+            <div class="col-md-6">
+                <div class="col-md-12 card p-3">
+                    <div class="row">
+                    <div class="col-md-3 pt-2 text-center">
+                        <i class="fas fa-laptop"></i>
+                        <h5>Skills</h5>
+                    </div>
+                    <div class="col-md-9" style="float: left;">
+                        <h5>DATABASE : MySQL, MongoDB, </h5>
+                        <h5>     IDE : VSCODE, PYCHARM, NETBEANS, ATOM,   </h5>
+                        <h5>HTML, CSS, JS,BOOTSTRAP, MDB, PHP, .NET ,</h5>
+                        <h5>  C, C++, Java, Python,  Android, Photoshop, UNITY.  </h5>
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="">
+                <div class="col-md-12 card">
+                    <i class="fas fa-dove"></i>
+                    <h5>Hobbies 
+                     <br> Football, Trekking, Mobile Technician, Chess.</h5>
+                </div>
                 </a>
-                </p>
-
-
-<hr>
-              <h2>FOOD NATION </h2>
-          <p>Developed School website in ASP.net,
-              This website helps to show the dishes and to calculate the ver all bill and also you are able to print that bill.
-
-      <br><br>
-    <input type="button" class="btn btn-default" name="" value="ASP.net">
-
-            <br><br>
-
-            <a href="grabox.000webhostapp.com">
-            <input type="button" class="btn btn-success" name="" value="View Project">
-            </a>
-      </p>
-
-<hr>
-                    <h2>SCHOOL MANAGEMENT S/W</h2>
-                <p>Developed software for School  in VB.net
-                    This is simple school management desktop software which helps to manage school’s data.
-
-            <br><br>
-          <input type="button" class="btn btn-default" name="" value="VB.net">
-
-                  <br><br>
-
-                  <a href="#">
-                  <input type="button" class="btn btn-success" name="" value="View Project">
-                  </a>
-            </p>
-
-
-            <hr>
-                <h2>HOTEL MANAGEMENT S/W </h2>
-            <p>	Developed software for hotel in ASP.net
-	               This website helps to show the dishes and to calculate the ver all bill and also you are able to print that bill.
-          <br><br>
-                      <input type="button" class="btn btn-default" name="" value="VB.net">
-
-                              <br><br>
-
-                              <a href="#">
-                              <input type="button" class="btn btn-success" name="" value="View Project">
-                              </a>
-    </p>
-
-
-      <hr>
-          <h2>  APP FOR AMMONIA DETECTION           </h2>
-          <p>Developed an app for detection of ammonia.
-A sensor for ammonia detection is created by other members of my team, their sensor detect the presence of ammonia.
-We integrated Arduino device with this sensor and then, if sensor detects any ammonia in surrounding then value on firebase is changes with the help of methods which is called by arduino. Then if gas is detected then my app shows area is unsafe otherwise safe.
-
-          <br><br>
-          <input type="button" class="btn btn-default" name="" value="Android Studio">
-          <br><br>
-
-            <a href="#">
-          <input type="button" class="btn btn-success" name="" value="View Project">
-        </a>
-        </p>
-
-        <hr>
-            <h2> DATABSE WORKING DEMO APP  </h2>
-            <p>Developed an app in android studio.
-              Developed an app for demonstration of database.
-
-            <br><br>
-            <input type="button" class="btn btn-default" name="" value="Android Studio">
-
-
-            <br><br>
-
-              <a href="">
-            <input type="button" class="btn btn-success" name="" value="View Project">
-          </a>
-          </p>
-
-          <hr>
-              <h2> POSTERS IN PHOTOSHOP CS6  </h2>
-              <p>Developed posters for following Events<br>
-              	CODINGO 2.O<br>
-              	C OVER SNAKE<br>
-              	PUBG<br>
-              	FLASH Mob
-              <br><br>
-              <input type="button" class="btn btn-default" name="" value="PhotoshopCS6">
-
-
-              <br><br>
-
-                <a href="#">
-              <input type="button" class="btn btn-success" name="" value="View Project">
-            </a>
-            </p>
-
-          </div>
-
-      </div>
-
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="resume.pdf" target="__blank">
+                <div class="col-md-12 card p-4">
+                    <i class="fas fa-user-graduate"></i>
+                    <h5>Resume</h5>
+                </div>
+                </a>
+            </div>
+        </div>
     </div>
 
-</div>
-
-<div class="div4 container-fluid">
-
-  <h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12  text-center">Activities and Achievements</h1>
-  <div class="container">
-    <ul>
-      <h2>ACHIEVEMENTS</h2>
-
-      <a href=""><li>Partcipated in Republic Day Pared</li></a>
-      <a href=""><li>1st Runnerup at Technomit2k18</li></a>
-      <a href=""><li>Winner in JNEC Inter Department Football Tournament 2018</li></a>
-      <a href=""><li>Successfully Completed 3 days Blocak chain Workshop</li></a>
-      <a href=""><li>Successfully Passed Certified Course in C with A grade</li></a>
-      <a href=""><li>Successfully Passed Certified Course in C with B+ grade</li></a>
-      <a href=""><li>Successfully Completed 2 day Workshop of Cyber Security & Ethical Hacking</li></a>
-      <a href=""><li>Successfully completed Linux test organized at JNEC Aurangabad</li></a>
-      <a href=""><li>Partcipation in National Science Day RAZZMATAZ-2K17</li></a>
-      <a href=""><li>Passed MS-CIT Exam with 95/100 Marks</li></a>
-
-      <h2>WORK/VOLUNTEER</h2>
-      <a href=""><li>Head of CODING 2.O  2019</li></a>
-      <a href=""><li>Organizer of Murder Mystery 2018</li></a>
-      <a href=""><li>Webmaster at Student Branch CSI JNEC 2019</li></a>
-      <a href=""><li>Coordinator Of Inforation Security Workshop</li></a>
-
-    </ul>
-  </div>
-
-</div>
-
-
-<div class="div5 container-fluid">
-  <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div51">
-      <h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12">Quick ID</h1><br>
-
-      <h2>Mobile : +91 7769955625</h2>
-      <h2>Email : sbdhakne309@gmail.com</h2>
-      <h2>Website : saurabhdhakne.github.io </h2>
-      <h2>Address : Aurangabad, Maharashtra.</h2>
-  </div>
-
-  <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 div52">
-    <h1>Thank You</h1>
-        <ul>
-          <li>Google</li>
-          <li>Youtube</li>
-          <li>Github</li>
-          <li>Stack Overflow</li>
-          <li>Quora</li>
-          <li>Hackerrank</li>
-          <li>Udemy</li>
-          <li>GeeksForGeeks</li>
-          <li>Tutorialspoint</li>
-
-        </ul>
-  </div>
-
-</div>
-
-
-<footer><br>
-  <h5 class="text-center">Handcrafted by Saurabh Dhakne © 2019</h5>
-</footer><br>
-
-<script src="js/swiper.min.js"></script>
-<script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
-
-  <script type="text/javascript">
-
-
-  $('a[href*="#"]')
-    .not('[href="#"]')
-    .not('[href="#0"]')
-    .click(function(event) {
-      if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-        &&
-        location.hostname == this.hostname
-      ) {
-        // Fig  ure out element to scroll to
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        // Does a scroll target exist?
-        if (target.length) {
-          // Only prevent default if animation is actually gonna happen
-          event.preventDefault();
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000, function() {
-            // Callback after animation
-            // Must change focus!
-            var $target = $(target);
-            $target.focus();
-            if ($target.is(":focus")) { // Checking if the target was focused
-              return false;
-            } else {
-              $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-              $target.focus(); // Set focus again
-            };
-          });
-        }
-      }
-    });
-
-    </script>
-
-  </body>
+    <footer class="col-md-12 fixed-bottom bg-dark text-center pt-3 pb-2">
+        <h5> <a href="https://in.linkedin.com/in/saurabh-dhakne-600040181" target="__blank">
+            Handcrafted by Saurabh Dhakne © 2019
+        </a>
+        </h5>
+    </footer>
+</body>
 </html>
