@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Cake</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<style>
+    h1{
+        position: fixed;
+        top: 30%;
+        font-family: COLONNA MT;
+        font-size: 6em;
+        background: snow;
+        padding: 50px;
+        width: 100%;
+        text-align:center;
+        display: none;
+    }
+    h2{
+        position: fixed;
+        top: 30%;
+        font-family: COLONNA MT;
+        font-size: 6em;
+        background: snow;
+        padding: 50px;
+        width: 100%;
+        text-align:center;
+        display: none;
+    }
+    .fadeOutRight {
+    animation-duration: 3s;
+    animation-delay: 1s;
+    }
+</style>
+</head>
+<body>
+   
+
+    <div class="container pulse" onclick="myFunction()" style="z-idex:9">
+        <div class="cake c1" id='cake3'>
+            <div class="cream"></div>
+            <div class="icing">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="cherries">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="cake c2" id="cake2">
+            <div class="cream"></div>
+            <div class="icing">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="cherries">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="cake c3" id="cake">
+            <div class="cream"></div>
+            <div class="icing">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="cherries">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="candle">
+                <div class="flame" id="flames"></div>
+            </div>
+        </div>
+    </div>
+    <h1 class="animated fadeOutRight" id="hbd"> Happy Birthday Aishwarya</h1>
+    <h2 class="animated fadeOutRight" id="hbd2"> Happy Birthday Aishwarya</h2>
+    <script>
+        flag = 0;
+        document.getElementById("hbd").style.display = "block";
+        function myFunction() {
+          if(flag == 0){
+          document.getElementById("flames").style.display = "none";
+          flag++;
+
+            }
+            else if(flag==1){
+          document.getElementById("cake").style.display = "none";
+          flag++;
+            }
+            else if(flag==2){
+          document.getElementById("cake2").style.display = "none";
+          flag++;
+            }
+            else if(flag==3){
+          document.getElementById("cake3").style.display = "none";
+          flag++;
+
+            }
+            else if(flag==4){
+          document.getElementById("hbd2").style.display = "block";
+          flag++;
+            }
+            
+        }
+        </script>
+</body>
+</html>
